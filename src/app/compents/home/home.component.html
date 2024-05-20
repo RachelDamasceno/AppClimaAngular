@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class=" container">
+    <div class="upper-data">
+      @if(14>15){
+      <img src="/assets/imagens/dia.png" alt="Dia">
+      }
+      @else {
+      <img src="/assets/imagens/noite.png" alt="Noite" [@If]="14<=15">
+      }
+    </div>
+
+
+    <div class="lower-data">
+
+    </div>
+    <!-- Link da aula: https://www.youtube.com/watch?v=psZXU8PTAS8&t=2207s Parei em 10:32 -->
+  </div>
+</body>
+
+</html>
